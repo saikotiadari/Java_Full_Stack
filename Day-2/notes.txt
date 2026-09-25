@@ -1,0 +1,33 @@
+other tags
+-----------
+ex: <div></div>,<p></p>,<span></span>,all list tags, media tags,semantic tags
+
+2.unpair tags/ self closing tags:
+-----------------------------------
+any tag having only opening tag is called unpair tag
+ex:<br>,<image>,<hr>,<col>,<input>,<meta>..etc
+
+3.Image tag:
+----------------
+    -> <img> is the one of the media tag used to display images on the web pages.
+    ->image  attributes:
+    -------------------------
+    1.src(source):
+        ->absolute path(browser image path)
+        ->relative path(downloaded images path)
+    2.alt
+    3.width
+    4.height
+    5.style
+    6.id
+    7.class
+
+attributes:
+--------------
+        -> attributes are the additional information given to the tag
+        -> attributes are always in static (opening tag)
+        -> attributes are always in key and value
+
+        ex:<h1 style=" " align="center/right/left"> </h1>
+
+
