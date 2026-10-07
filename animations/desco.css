@@ -1,0 +1,23 @@
+body{
+    margin:0px;
+    height:100vh;
+    background-color: aqua;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    animation: desco 5s infinite;
+}
+@keyframes desco {
+    0%{ background-color: red;}
+    15%{ background-color: green;}
+    30%{ background-color: brown;}
+    45%{ background-color: yellow;}
+    60%{ background-color: blue;}
+    75%{ background-color: orange;}
+    100%{ background-color: coral;}
+}
+h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}

@@ -1,0 +1,16 @@
+.ball{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border-radius:50%;
+    animation:bounce 2s ease-in infinite alternate;
+
+}
+@keyframes bounce{
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(300px);
+    }
+}
